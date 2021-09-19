@@ -1,0 +1,25 @@
+{
+	"name": "NFTGenerator",
+	"version": "1.0.0",
+	"description": "Outil utilisé pour créer plusieurs instances différentes d'œuvres d'art en fonction des calques fournis.",
+	"main": "App.js",
+	"author": "alexandrepletty <alexandre.pletty@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "nodemon App.js",
+		"build": "node App.js"
+	},
+	"dependencies": {
+		"all": "^0.0.0",
+		"canvas": "^2.8.0",
+		"inquirer": "^8.1.5",
+		"rimraf": "^3.0.2",
+		"util": "^0.12.4"
+	},
+	"devDependencies": {
+		"boxen": "^5.1.2",
+		"chalk": "^4.1.2",
+		"ora": "5.4.1"
+	}
+}
